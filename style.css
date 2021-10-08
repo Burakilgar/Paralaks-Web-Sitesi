@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Lato', sans-serif;
+    
+}
+.container1{
+    background-image: url(./images/bg.jpg) ;
+}
+.container1, .container3,.container5,.container7,.container9{
+    
+    height: 753.6px;
+    opacity: 0.7;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.container1__bolum1,.container5__bolum1,.container7__bolum1,.container9__bolum1{
+    
+    font-size: 48px;
+    letter-spacing: 8px;
+    
+    font-family: sans-serif ;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:12px 32px;
+    border-top-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    outline: 10px solid;
+    outline-offset:16px ;
+    outline: 10px inset purple;
+   
+    
+}
+.container2,.container4,.container6,.container8{
+    line-height: 28.8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    height: 300px;
+    background-color: #f1f1f1;
+}
+.container2__bolum1 ,.container4__bolum1,.container6__bolum1,.container8__bolum1{
+    font-weight: 700;
+    margin: 20px;
+    font-size: 24px;
+    font-family: lato ,sans-serif bold;
+    width: 90%;
+    max-width: 90%;
+    text-align: center;
+   
+   
+}
+.container2__bolum2,.container4__bolum2,.container6__bolum2,.container8__bolum2{
+    width: 90%;
+    max-width: 90%;
+    text-align: center;
+   
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+   
+}
+.container3{
+    background-image: url(./images/bg2.jpg);
+    height: 590px;
+    
+}
+.container3 img{
+    height: 94.8px;
+    width: 455px;
+
+    
+}
+.container4{
+    color: white;
+    background-color: #282E34;
+}
+.container5{
+    background-image: url(./images/bg3.jpg);
+    height: 570px;
+}
+.container7{
+    background-image: url(./images/bg4.jpg);
+    height: 570px;
+    
+}
+.container8{
+    color: white;
+    background-color: #282E34;
+}
+.container9{
+    background-image: url(./images/bg.jpg);
+}
